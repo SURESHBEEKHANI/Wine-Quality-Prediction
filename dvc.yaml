@@ -6,7 +6,6 @@ stages:
       - config/config.yaml
     outs:
       - artifacts/data_ingestion/data.zip
-      - artifacts/data_ingestion/winequality-red.csv
 
   data_validation:
     cmd: python src/WineQuality/pipeline/stage_02_data_validation.py
